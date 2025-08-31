@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verko Mod Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #2a003f, #1a002e, #3b0066);
+      color: #f5e6ff;
+      text-align: center;
+    }
+
+    header {
+      padding: 50px 20px;
+      background: rgba(50, 0, 80, 0.6);
+      box-shadow: 0 4px 20px rgba(128,0,255,0.3);
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #d966ff;
+      margin: 0;
+      text-shadow: 0 0 12px #b300ff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(100, 0, 150, 0.4);
+      border: 1px solid rgba(200, 100, 255, 0.4);
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 0 18px rgba(190, 80, 255, 0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(200, 100, 255, 0.6);
+    }
+
+    .discord-btn {
+      display: inline-block;
+      margin: 50px auto;
+      padding: 16px 32px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #7a00cc, #b300ff);
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 18px rgba(200, 100, 255, 0.5);
+      transition: all 0.2s;
+    }
+
+    .discord-btn:hover {
+      background: linear-gradient(90deg, #b300ff, #7a00cc);
+      box-shadow: 0 0 30px rgba(200, 100, 255, 0.9);
+    }
+
+    footer {
+      padding: 25px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+      background: rgba(40, 0, 70, 0.6);
+      box-shadow: 0 -2px 15px rgba(128,0,255,0.3);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.4rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .card {
+        font-size: 0.95rem;
+        padding: 18px;
+      }
+      .discord-btn {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Verko</h1>
+    <p>A sleek and powerful showcase website</p>
+  </header>
+
+  <section class="features">
+    <div class="card">✨ Slick, Clean Design</div>
+    <div class="card">⚡ Fast & Lightweight</div>
+    <div class="card">🔒 Reliable & Secure</div>
+    <div class="card">🎨 Fully Customizable</div>
+    <div class="card">🛠️ Easy Setup</div>
+    <div class="card">🚀 Constant Updates</div>
+  </section>
+
+  <a href="https://discord.gg/ts5fCYRajF" class="discord-btn">💜 Join Our Discord</a>
+
+  <footer>
+    © 2025 Verko — All rights reserved.
+  </footer>
+</body>
+</html>
